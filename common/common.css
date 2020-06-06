@@ -1,0 +1,26 @@
+/* 设置全局样式 */
+/* (1) 页面高度100%,默认字体28upx,默认行高1.8,背景颜色 */
+/* #ifndef APP-PLUS-NVUE */
+page{
+	height: 100%;
+	font-size: 28upx;
+	background-color: #FFFFFF;
+}
+/* (2) 图片默认100%宽度 */
+image{  width: 100%;  }
+/* #endif */
+/* 主色调 */
+/* 主背景颜色（橙色）*/
+.main-bg-color{ background-color: #4566f3; }
+/* 主点击背景颜色（淡橙色）*/
+.main-bg-hover-color{ background-color: rgba(71,104,243,0.7) }
+/* 主字体颜色（橙色）*/
+.main-text-color{color: #4566f3;}
+/* 主边框颜色 */
+.main-border{border: 1upx solid #F0F0F0;}
+.main-border-color{ border-color: #F0F0F0; }
+.main-border-top{border-top: 1upx solid #f0f0f0;}
+.main-border-right{border-right: 1upx solid #f0f0f0;}
+.main-border-bottom{border-bottom: 1upx solid #f0f0f0;}
+.main-border-left{border-left: 1upx solid #f0f0f0;}
+
